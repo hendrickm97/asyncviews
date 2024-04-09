@@ -15,4 +15,4 @@ async def http_call_async():
 async def async_view(request):
     loop = asyncio.get_event_loop()
     loop.create_task(http_call_async())
-    return HttpResponse("Non-blocking HTTP request!")
+    return HttpResponse("Non-blocking HTTP request! exercício completo :D")
